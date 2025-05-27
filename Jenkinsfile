@@ -16,7 +16,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/naveenanimation20/July2024PostmanCollections'
+                git url: 'https://github.com/adith442864/July2024PostmanCollections.git'
             }
         }
         stage('Run api test cases') {
